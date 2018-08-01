@@ -16,6 +16,9 @@ public class InvocateProcessor implements Runnable {
         this.service = service;
     }
 
+    /**
+     * 处理请求
+     */
     public void run() {
         ObjectInputStream inputStream = null;
         ObjectOutputStream outputStream = null;

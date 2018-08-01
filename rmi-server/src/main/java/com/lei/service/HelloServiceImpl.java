@@ -1,4 +1,6 @@
-package com.lei.rpc;
+package com.lei.service;
+
+import com.lei.rpc.IHelloService;
 
 public class HelloServiceImpl implements IHelloService {
     public String sayHello(String msg) {
