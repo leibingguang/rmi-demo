@@ -1,4 +1,4 @@
-package com.lei.zkregister;
+package com.lei.rpc;
 
 public interface RpcConfig {
 

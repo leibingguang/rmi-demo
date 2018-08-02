@@ -1,12 +1,10 @@
 package com.lei.zkregister;
 
-import org.apache.curator.RetryPolicy;
+import com.lei.rpc.RpcConfig;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.RetryNTimes;
 import org.apache.zookeeper.CreateMode;
-
-import javax.annotation.processing.SupportedSourceVersion;
 
 public class ServiceRegisterImpl implements IServiceRegister {
     private CuratorFramework curatorFramework;

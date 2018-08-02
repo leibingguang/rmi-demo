@@ -1,5 +1,6 @@
 package com.lei.zkregister.service;
 
+import com.lei.rpc.IHelloService;
 import com.lei.zkregister.RpcAnnotation;
 
 @RpcAnnotation(IHelloService.class)

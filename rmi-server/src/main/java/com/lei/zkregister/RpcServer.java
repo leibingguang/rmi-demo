@@ -1,8 +1,5 @@
 package com.lei.zkregister;
 
-
-import com.lei.zkregister.service.IHelloService;
-
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
